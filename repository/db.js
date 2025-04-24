@@ -1,11 +1,11 @@
 import mysql from 'mysql2';
 
 const pool = mysql.createPool({
-    host: 'ssussu-db.cpgwkwuecf57.ap-northeast-2.rds.amazonaws.com',
+    host: 'shoppy-redux-db.c5c00c6s66l9.ap-northeast-2.rds.amazonaws.com',
     port: 3306,
     user: 'admin',
-    password: 'ssussu1234',
-    database: 'kurlydb',
+    password: 'Hwangsu94!',
+    database: 'hrdb2019',
 });
 
 export const db = pool.promise();
