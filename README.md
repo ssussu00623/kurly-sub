@@ -1,2 +1,1 @@
-# kurly-sub
-Kuly
+# kurly-server
